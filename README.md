@@ -15,7 +15,7 @@ git clone https://github.com/dasagreeva/object-detector.git
 cd object-detector
 ```
 
-### Running with =gunicorn=
+### Running with Gunicorn
 ```
 pip install -r requirements.txt
 pip install gunicorn
