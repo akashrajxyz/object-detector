@@ -28,7 +28,7 @@ gunicorn --bind 0.0.0.0:5000 api:app
 git clone https://github.com/dasagreeva/object-detector.git
 cd object-detector
 docker image build -t ml-app:1.0 .
-docker run -p 5000:5000 -d object-detector
+docker run -p 5000:5000 -d ml-app
 ```
 
 ## Usage
